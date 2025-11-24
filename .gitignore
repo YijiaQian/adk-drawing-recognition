@@ -1,0 +1,85 @@
+# 环境变量和敏感信息
+.env
+.env.local
+.env.*.local
+
+# API Keys 和配置
+*.key
+*.pem
+credentials.json
+secrets.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 虚拟环境
+venv/
+ENV/
+env/
+.venv
+
+# 日志
+logs/
+*.log
+*.log.*
+
+# 临时文件
+temp_uploads/
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+
+# 图纸缓存
+*_page1.jpg
+*_page1.png
+temp/
+
+# ADK 相关
+.adk/
+adk_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# 测试覆盖率
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
